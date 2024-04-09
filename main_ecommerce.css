@@ -39,12 +39,12 @@ nav.main-nav.flex-grow-1 .menu {
     background-color: #f9fafc;
 }
 /*cambio de color del menu*/
-/*ANTONY*/
+/*CLAUDIO*/
 ul.menu.sf-arrows.sf-js-enabled li a {
-    background: #eaeef7;
+    background: #000;
     margin: 0 5px 5px 0;
     padding: 6px 16px;
-    color: #18181b;
+    color: #fff;
     border-radius: 4px;
 }
 .logo img {
@@ -69,22 +69,24 @@ ul.menu.sf-arrows.sf-js-enabled li a {
 .header-right .dropdown.cart-dropdown {
     height: 45px;
 }
+/*CLAUDIO*/
 .header-contact span {
-    color: #23da95;
+    color: #FFF;
 }
 
+/*CLAUDIO*/
 .header-contact,
 .whatsapp-order {
-    color: #23da95;
-    background: #e4fff4;
+    color: #FFF;
+    background: #000;
     border-radius: 5px;
     padding: 3px 15px;
 }
-
+/*CLAUDIO*/
 .cart-dropdown .dropdown-toggle .cart-count {
     right: -4px;
     top: -4px;
-    background: #fc4e4b;
+    background: #000;
     font-size: 14px;
     padding: 4px;
     height: 20px;
@@ -341,13 +343,15 @@ h2.product-title {
     padding: 0 10px;
     border-radius: 5px;
 }
+/*CLAUDIO*/
 .nav.nav-tabs .nav-item.show .nav-link, 
 .nav.nav-tabs .nav-item .nav-link.active {
-    color: #24da94;
-    border-bottom-color: #24da94;
+    color: #000;
+    border-bottom-color: #000;
 }
+/*CLAUDIO*/
 .nav.nav-tabs .nav-item .nav-link:hover {
-    color: #24da94;
+    color: #000;
 }
 nav.nav-tabs .nav-item .nav-link {
     font: 700 1.4rem/1 "Poppins",sans-serif;
