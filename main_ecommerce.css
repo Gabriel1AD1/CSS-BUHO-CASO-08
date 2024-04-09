@@ -188,15 +188,11 @@ textarea.form-control::placeholder  {
 .product-image::after {
     background-color: unset;
 }
-/*CAMBIO GABO*/
-figure.product-image-container:hover {
-    border-radius: 4px;
-    border: 2px solid black;
-}
+
 
 /*CHELSO*/
 .product.product-style {
-    border: 1px solid #18181b;
+    border: 1px solid #f1f1f1;
     border-radius: 10px;
     padding-bottom: 10px;
 }
