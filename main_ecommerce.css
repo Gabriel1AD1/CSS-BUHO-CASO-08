@@ -577,15 +577,13 @@ input#pwd_repeat_reg:focus {
 label {
     color: #777;
 }
-.modal button.btn.btn-primary,
-.dropdown-cart-action .btn,
-.btn.btn-block.btn-sm.btn-primary.cash,
-.btn-primary.login-link  {
+.modal button.btn.btn-primary, .dropdown-cart-action .btn, .btn.btn-block.btn-sm.btn-primary.cash, .btn-primary.login-link {
     width: 100%;
     margin-top: 20px;
     border-radius: 8px;
-    background: #24da94;
-    border-color: #24da94;
+    background: #f3f3f3;
+    border-color: #000000;
+    color: black;
 }
 .btn {
     font-family: "Poppins",sans-serif;
