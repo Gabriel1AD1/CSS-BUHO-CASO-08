@@ -9,10 +9,11 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+/*CHELSO*/
 body {
     background-color: #fff;
     color: #7a7d82;
-    font: normal 400 1.4rem / 1.8 "Open Sans", sans-serif;
+    font: normal 400 1.4rem / 1.8 "Arial", sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden
@@ -1853,10 +1854,11 @@ a:focus {
     margin-top: -1px
 }
 
+/*CHELSO*/
 .menu.menu-vertical>li:hover,
 .menu.menu-vertical>li.show,
 .menu.menu-vertical>li.active {
-    background-color: #08c
+    background-color: #080776;
 }
 
 .menu.menu-vertical>li:hover>a,
@@ -5830,7 +5832,7 @@ a:focus {
 .home-slide-content.text-white {
     color: #fff
 }
-
+/*CHELSO*/
 .home-slide-content.text-white h1,
 .home-slide-content.text-white h3 {
     color: #fff
@@ -6117,7 +6119,7 @@ a:focus {
 
 @media screen and (min-width: 576px) {
     .home-slide-content h1 {
-        font-size: 4.4rem
+        font-size: 6rem;
     }
 
     .home-slide-content h3 {
