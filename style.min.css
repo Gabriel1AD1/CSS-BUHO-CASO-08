@@ -1148,9 +1148,11 @@ a:focus {
     color: inherit
 }
 
+/*CLAUDIO*/
+/* HOVER DEL "LOGIN"*/ 
 .header-contact a:hover,
 .header-contact a:focus {
-    color: #1ab3ff;
+    color:#fff;
     text-decoration: none
 }
 
@@ -6816,6 +6818,7 @@ a:focus {
     margin-top: -.6rem
 }
 
+/*CLAUDIO*/
 .product-single-details .product-title {
     color: #21293c;
     font-weight: 600;
@@ -6824,8 +6827,10 @@ a:focus {
     margin-bottom: 1.1rem
 }
 
+/*CLAUDIO*/
+/* PRECIO DEL PRODUCTO */ 
 .product-single-details .price-box {
-    color: #08c;
+    color:#000;
     font-weight: 700;
     margin-bottom: 2.4rem
 }
