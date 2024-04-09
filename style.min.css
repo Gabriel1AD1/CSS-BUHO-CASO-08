@@ -1764,7 +1764,7 @@ a:focus {
 
 .side-menu-container {
     border: 1px solid #dae2e6;
-    border-radius: .2rem;
+    border-radius: 4px;
     margin-bottom: 3rem;
     display: none
 }
@@ -2613,7 +2613,6 @@ a:focus {
 }
 /*ANTONY*/
 .product-image img {
-    clip-path: circle(50% at center);
     display: block;
     width: 100%;
     height: auto
