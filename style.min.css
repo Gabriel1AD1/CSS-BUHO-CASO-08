@@ -2606,8 +2606,9 @@ a:focus {
     visibility: hidden;
     transition: all .3s
 }
-
+/*ANTONY*/
 .product-image img {
+    clip-path: circle(50% at center);
     display: block;
     width: 100%;
     height: auto
@@ -4359,19 +4360,22 @@ label {
     letter-spacing: .025em
 }
 
+/*ANTONY*/
+/* Cambio en el boton PAGAR CON EFECTIVO*/
 .btn-primary {
     color: #fff;
-    background-color: #08c;
-    border-color: #08c;
+    background-color: #18181b;
+    border-color: #18181b;
     box-shadow: none
 }
 
+/*ANTONY*/
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus {
     color: #fff;
-    background-color: #00a3f5;
-    border-color: #00a3f5;
+    background-color: #2f2f31;
+    border-color: #2f2f31;
     box-shadow: none
 }
 
@@ -4382,12 +4386,13 @@ label {
     border-color: #08c
 }
 
+/*ANTONY*/
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #069;
-    border-color: #005e8c
+    background-color: #3d3d3f;
+    border-color: #3d3d3f;
 }
 
 .btn-secondary {
@@ -4480,19 +4485,21 @@ label {
     background-color: transparent;
     border-color: #08c
 }
-
+/*cambio de icono de continuar comprando */
+/*ANTONY*/
 .btn-outline-secondary {
-    color: #777;
+    color: #333;
     background-color: transparent;
     background-image: none;
-    border-color: #ccc
+    background-color: #fff;
 }
 
+/*ANTONY*/
 .btn-outline-secondary:hover,
 .btn-outline-secondary.focus {
-    color: #fff;
-    background-color: #08c;
-    border-color: #08c;
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
     box-shadow: none
 }
 
@@ -4501,13 +4508,13 @@ label {
     color: #777;
     background-color: transparent
 }
-
+/*ANTONY*/
 .btn-outline-secondary:not(:disabled):not(.disabled):active,
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-secondary.dropdown-toggle {
-    color: #fff;
-    background-color: #08c;
-    border-color: #08c
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
 }
 
 .btn-outline-dark {
