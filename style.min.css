@@ -1858,7 +1858,8 @@ a:focus {
 .menu.menu-vertical>li:hover,
 .menu.menu-vertical>li.show,
 .menu.menu-vertical>li.active {
-    background-color: #080776;
+    background-color: #f4f6fa;
+    border-radius: 1px;
 }
 
 .menu.menu-vertical>li:hover>a,
