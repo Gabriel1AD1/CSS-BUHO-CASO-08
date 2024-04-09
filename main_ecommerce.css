@@ -1,8 +1,9 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+/*ANTONY*/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    color: #001141;
+    color: #1f1f1f;
 }
 *::-webkit-scrollbar-track{
 	background-color: #F1F2F4;
@@ -37,12 +38,13 @@ nav.main-nav.flex-grow-1 .menu {
 .header-bottom {
     background-color: #f9fafc;
 }
-
+/*cambio de color del menu*/
+/*ANTONY*/
 ul.menu.sf-arrows.sf-js-enabled li a {
     background: #eaeef7;
     margin: 0 5px 5px 0;
     padding: 6px 16px;
-    color: #60769a;
+    color: #18181b;
     border-radius: 4px;
 }
 .logo img {
@@ -137,9 +139,10 @@ textarea.form-control::placeholder  {
     transform: scale(.75);
 }
 
-
+/*ANTONY*/
+/* cambio de ícono de usuario y carrito*/ 
 .cart-dropdown .text-white {
-    color: #60769a !important;
+    color: #1f1f1f !important;
 }
 
 .product-single-tabs li.nav-item:nth-child(2),
@@ -402,7 +405,7 @@ a.paction.add-cart.whatsapp {
 
 
 /* Footer */
-/*@Gabo*/
+/*Gabo*/
 .footer {
     color: #1f1f1f;
     background-color: #f7f8fa;
@@ -411,8 +414,10 @@ a.paction.add-cart.whatsapp {
 .footer-bottom{
     border-top: 1px solid #f1f2f4;
 }
+/*ANTONY*/
+/*cambio de color del FOOTER */
 .footer .widget-title {
-    color: #60769a;
+    color: #1f1f1f;
     font: 700 1.6rem/1.1 "Poppins",sans-serif;
     text-transform: unset;
 }
@@ -557,8 +562,10 @@ input#pwd_repeat_reg:focus {
     border-color: #60769a;
 }
 
-label{
-    color: #60769a;
+/*ANTONY*/
+/*cambio de color RESUMEN Y COMPROBANTE*/
+label {
+    color: #777;
 }
 .modal button.btn.btn-primary,
 .dropdown-cart-action .btn,
@@ -737,11 +744,13 @@ span.search_price {
     border-radius: 12px;
 }
 
+/*cambio de color de CANTIDAD*/
+/*ANTONY*/
 .bootstrap-touchspin .form-control:not(:focus) {
     border: unset;
     border-radius: 6px;
     background: #f3f6fa;
-    color: #60769a;
+    color: #1f1f1f;
 }
 input.vertical-quantity.form-control.input_quantity {
     border-radius: 6px;
@@ -753,29 +762,39 @@ input.vertical-quantity.form-control.input_quantity {
     background: #f3f6fa;
     border: unset;
 }
+
+/* cambio de boton de limpiar carrito*/
+/*ANTONY*/
 button.btn.btn-outline-danger.btn-sm,
 .btn.btn-outline-secondary.btn-clear-cart ,
 .btn-logout{
-    background: #fdf8f8;
-    border-color: #fdf8f8;
-    color: #fc4f4b;
+    background-color: #fc4e4b;
+    border-color: #fc4e4b;
+    color: #fff;
     border-radius: 6px;
     padding: 6px;
     text-transform: unset;
 }
+
+/*ANTONY*/
 button.btn.btn-outline-danger.btn-sm:hover,
 .btn.btn-outline-secondary.btn-clear-cart:hover,
 .btn-logout:hover {
-    background: #fc4f4b;
-    border-color: #fc4f4b;
+    background-color: #fc716f;
+    border-color: #fc716f;
     color: #fdf8f8;
 }
+/*cambio de texto PRODUCTO, PRECIO, CÓDIGO DE PEDIDO, ETC. De azul a negro */
+/*ANTONY*/
 .table-cart thead {
-    color: #60769a;
+    color: #18181b;
 }
+/*ANTONY*/
+/*cambio de color del dinero*/
 .table-cart {
-    color: #60769a;
+    color: #1f1f1f;
 }
+
 .table-cart a.btn.btn-outline-secondary {
     border: unset;
     border-radius: 6px;
@@ -796,9 +815,11 @@ button.btn.btn-outline-danger.btn-sm:hover,
     border: unset;
     border-radius: 12px;
 }
+/*cambio de color ORDEN TOTAL*/
+/*ANTONY*/
 .table.table-totals {
     border-top: unset;
-    color: #60769a;
+    color: #000000;
     margin-bottom: 0;
 }
 .cart-table-container h2:not(.product-title) {
